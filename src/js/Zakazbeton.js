@@ -5,8 +5,7 @@ import { BsArrowLeft } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
 
 import '../css/Zakazbeton.css';
-import 'swiper/css';
-import 'swiper/css/navigation';
+
 import kubik from "../img/m350 1.png";
 import rubik from "../img/cement 1(1).png";
 import tosh from "../img/183973062b952e05464d21c9f08676f9 1.png"
@@ -49,8 +48,8 @@ export default class Zakazbeton extends Component {
    </div></div>
 
    <div className="beton_button">
-    <div className="beton_button1"> <h3><BsArrowLeft/></h3> <span> Назад</span></div>
-    <div className="beton_button2"><h3><BsArrowRight/></h3> <span>Далее </span></div>
+    <div className="beton_button1"> <h3><BsArrowLeft/></h3> <a href='/' > Назад</a></div>
+    <div className="beton_button2"> <a href='/zakazbeton2' >Далее </a><h3><BsArrowRight/></h3></div>
    </div>
    </div>
   
