@@ -24,10 +24,6 @@ export default class Zakazbeton5 extends Component {
 <img src={group1} alt="" />
 <p className='beton_eko' >Эконом</p>
 </div>
-
-
-
-
 </div>
 <div className="beton_ari1">
 <div className="beton_uxshad">
@@ -46,8 +42,8 @@ export default class Zakazbeton5 extends Component {
 <div className="beton_uxshad">
 <img className='beton_yemad' src={group} alt="" />
 <div class="checkbox">
-    <input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo"/>
-    <label for="color-1"></label>
+<input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo"/>
+    <label for="color-1"></label> 
   </div>
 </div>
 <div className="beton_kamaz">
@@ -57,8 +53,6 @@ export default class Zakazbeton5 extends Component {
 </div>
 
  </div>
-      
-      
              <div className="beton_linee120"> <p className='beton_nomer' >5<span>/9</span></p>
               <div className='beton_line' >
                 <div className='beton_line2323' ></div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import '../css/Zakazbeton.css';
 import { BsArrowLeft } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
+
 export default class Zakazbeton6 extends Component {
   render() {
     return (
@@ -31,6 +32,11 @@ export default class Zakazbeton6 extends Component {
 </div>
 </div>
 <div className="beton_soat2">
+<input type="date"/>
+
+
+
+
 
 </div>
 
