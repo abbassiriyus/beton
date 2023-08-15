@@ -214,10 +214,14 @@ border-radius: 12px;
 border: 1px;
 border: 1px solid #E7E7E7;
 outline: none;
+
+
 }
 .page2-login-inp input[placeholder]{
     padding-left: 20px;
-    font-family: Gilroy;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
 font-size: 17px;
 font-weight: 500;
 line-height: 19px;
@@ -342,4 +346,388 @@ cursor: pointer;
 }
 .page_form-checboc1 input[radio]{
     background-color: #FFCB13 !important;
+}
+
+
+
+/* page5 */
+.teper-login5{
+width: 627px;
+height: 649px;
+border-radius: 35px;
+background-color: #ffffff;
+
+}
+
+.img-x{
+    display: flex;
+    justify-content: space-between;
+}
+.login-x{
+    padding: 20px;
+}
+.login-x box-icon{
+    cursor: pointer;
+}
+.login-img{
+    position: relative;
+    right: 54px;
+    top: -35px;
+}
+.fizika-litso{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -160px;
+}
+.fizika-litso h1{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.fizika-litso p{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+}
+.fizika-inputla input{
+    width: 370px;
+    margin-top: 10px;
+height: 60px;
+border-radius: 12px;
+border: 1px;
+border: 1px solid #E7E7E7;
+outline: none;
+margin-bottom: 0px;
+}
+.fizika-inputla input[placeholder]{
+    padding-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-size: 17px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #979797;
+}
+.fizika-inputla button{
+    width: 385px;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    outline: none;
+    margin-bottom:15px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+cursor: pointer;
+transition: 0.4s;
+}
+.fizika-inputla button:hover{
+    background-color: #FFCB13;
+}
+
+
+@media (max-width:730px) {
+    .teper-login5 {
+        width: 550px;
+        height: 649px;
+        border-radius: 35px;
+        background-color: #ffffff;
+    }
+    .fizika-inputla input {
+        width: 300px;
+        margin-top: 10px;
+        height: 60px;
+        border-radius: 12px;
+        border: 1px;
+        border: 1px solid #E7E7E7;
+        outline: none;
+        margin-bottom: 0px;
+    }
+    .fizika-inputla button{
+        width: 320px;
+        height: 60px;
+        margin-top: 40px;
+        border-radius: 12px;
+        gap: 10px;
+        border: none;
+        outline: none;
+        margin-bottom:15px;
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    }
+}
+@media (max-width:630px) {
+    .teper-login5 {
+        width: 470px;
+        height: 649px;
+        border-radius: 35px;
+        background-color: #ffffff;
+    }
+    .fizika-inputla input {
+        width: 240px;
+        margin-top: 10px;
+        height: 60px;
+        border-radius: 12px;
+        border: 1px;
+        border: 1px solid #E7E7E7;
+        outline: none;
+        margin-bottom: 0px;
+    }
+    .fizika-inputla button{
+        width: 260px;
+        height: 60px;
+        margin-top: 40px;
+        border-radius: 12px;
+        gap: 10px;
+        border: none;
+        outline: none;
+        margin-bottom:15px;
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    }
+}
+@media (max-width:557px) {
+    .teper-login5 {
+        width: 430px;
+        height: 649px;
+        border-radius: 35px;
+        background-color: #ffffff;
+    }
+    .fizika-inputla input {
+        width: 280px;
+        margin-top: 10px;
+        height: 60px;
+        border-radius: 12px;
+        border: 1px;
+        border: 1px solid #E7E7E7;
+        outline: none;
+        margin-bottom: 0px;
+    }
+    .fizika-inputla button{
+        width: 300px;
+        height: 60px;
+        margin-top: 40px;
+        border-radius: 12px;
+        gap: 10px;
+        border: none;
+        outline: none;
+        margin-bottom:15px;
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    }
+    .login-img{
+        display: none;
+    }
+    .fizika-litso {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+    .img-x {
+        display: flex;
+        justify-content: end;
+    }
+}
+@media (max-width:510px) {
+    .teper-login5 {
+        width: 80%;
+        height: 649px;
+        border-radius: 35px;
+        background-color: #ffffff;
+    }
+    .fizika-inputla input {
+        width: 80%;
+        margin-top: 10px;
+        height: 60px;
+        border-radius: 12px;
+        border: 1px;
+        border: 1px solid #E7E7E7;
+        outline: none;
+        margin-bottom: 0px;
+    }
+    .fizika-inputla button{
+        width: 85%;
+        height: 60px;
+        margin-top: 40px;
+        border-radius: 12px;
+        gap: 10px;
+        border: none;
+        outline: none;
+        margin-bottom:15px;
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    }
+}
+.teper-login1{
+    width: 627px;
+height: 517px;
+border-radius: 35px;
+background-color: #ffffff;
+text-align: center;
+}
+.fizika-litso1{
+    margin: auto;
+    text-align: center;
+}
+.fizika-litso1 p{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+.fizika-inputla1 input{
+    width: 370px;
+    margin-top: 10px;
+height: 60px;
+border-radius: 12px;
+border: 1px;
+border: 1px solid #E7E7E7;
+outline: none;
+margin-bottom: 0px;
+}
+.fizika-inputla1 input[placeholder]{
+    padding-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-size: 17px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #979797;
+}
+.fizika-inputla1 button{
+    width: 385px;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    outline: none;
+    margin-bottom:15px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+cursor: pointer;
+transition: 0.4s;
+}
+.fizika-inputla1 button:hover{
+    background-color: #FFCB13;
+}
+@media (max-width:491px) {
+    .fizika-inputla1 input{
+        width: 80%;
+        margin-top: 10px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px;
+    border: 1px solid #E7E7E7;
+    outline: none;
+    margin-bottom: 0px;
+    }
+
+    .fizika-inputla1 button{
+        width: 85%;
+        height: 60px;
+        margin-top: 40px;
+        border-radius: 12px;
+        gap: 10px;
+        border: none;
+        outline: none;
+        margin-bottom:15px;
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    }
 }

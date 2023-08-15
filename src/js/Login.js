@@ -1,13 +1,78 @@
 import React, {useEffect,useState} from 'react'
 import '../css/Login.css'
+import log from '../img/log.png'
 
+  function bosss(){
 
+    }
 export default function Login() {
     const [page ,setPage]= useState(1)
-    
+    const [page1,setPage1] =useState(1)
+    const [page2,setPage2] =useState(3)
+    const [page3,setPage3] =useState(3)
+
+    function Page(id){
+      setPage1(id)
+    }
+    function Bos(){
+    setPage2(page1)
+ 
+    }
+  
+
   return (
     <div className='login_page'>
-{page===1?(         <div className="login-kotta">
+      {page2==5?((page===8?(<>
+        <div className="login-kotta">
+            
+            <div className="teper-login1">
+              <div className="nazat" >
+              <box-icon name='x'  color="#ACACAC" onClick={()=>setPage(3)}  size="35px"></box-icon>
+              </div>
+              <div className="fizika-litso1">
+              <h1>Регистрация</h1>
+              <p>Физическое лицо</p>
+              <br />
+              <div className="fizika-inputla1">
+              <form action="">
+              <input type="text"  placeholder="Логин" required />
+              <input type="password"  placeholder="Пароль" required />
+              <input type="password"  placeholder="Повторите пароль" required /> <br />
+              <button type='button' onClick={()=>setPage(8)} >Зарегестрироваться</button>
+              </form>
+              </div>
+            </div>
+            </div>
+         </div>
+      
+      </>):(<div className="login-kotta">
+        <div className="teper-login5" id="yoqol">
+        <div className="img-x">
+          <div className="login-img">
+            <img src={log} alt="" />
+          </div>
+          <div className="login-x" ><box-icon name='x' onClick={()=>setPage2(3)} color="#ACACAC"   size="35px"></box-icon></div>
+        </div>
+            <div className="fizika-litso">
+              <h1>Регистрация</h1>
+              <p>Физическое лицо</p>
+              <br />
+              <div className="fizika-inputla">
+              <input type="text"  placeholder="Имя" required />
+              <input type="text"  placeholder="Фамилия" required />
+              <input type="text"  placeholder="Отчество" required /> 
+              <input type="phone"  placeholder="Телефон" required /> 
+              
+              <input type="email"  placeholder="Email" /> <br />
+              <button type='button' onClick={()=>setPage(8)} >Далее</button>
+              </div>
+            </div>
+            
+            
+        </div>
+      </div>))):(<>{page2==6?("6"):(<>{page2==7?("7"):(
+      <>
+                {page===1?(         <div className="login-kotta">
             <div className="teper-login">
             <div className="login-ichi">
                    <h1>Вход в личный кабинет</h1>
@@ -39,9 +104,9 @@ export default function Login() {
               </div>
             </div>
          </div>
-         </div>):(page===3?(<div>
-          <div className="login-kotta">
-            
+         </div>):(page===3?(
+         <div>
+          <div className="login-kotta">  
             <div className="teper-login1">
               <div className="nazat" >
               <box-icon name='x'  color="#ACACAC" onClick={()=>setPage(1)}  size="35px"></box-icon>
@@ -50,30 +115,31 @@ export default function Login() {
                 <h1>Регистрация</h1>
                 <div className="page3-form">
                   <div className="page_form-checboc">
-                    <div className="checboc-block1">
+                    <div onClick={()=>Page(5)} className="checboc-block1">
                       <input type="radio"  />
                       <p>Физическое лицо</p>
                     </div>
                   </div>
-                  <div className="page_form-checboc1">
-                    <div className="checboc-block1">
+                  <div  className="page_form-checboc1">
+                    <div onClick={()=>Page(6)} className="checboc-block1">
                       <input type="radio" />
                       <p>Организация</p>
                     </div>
                   </div>
                   <div className="page_form-checboc1">
-                    <div className="checboc-block1">
+                    <div onClick={()=>Page(7)} className="checboc-block1">
                       <input type="radio" />
                       <p>Водитель</p>
                     </div>
                   </div>
-                  <button>Далее</button>
+                  <button onClick={()=>Bos()}>Далее</button>
                 </div>
                 
               </div>
             </div>
          </div>
          </div>):(<div></div>)))}
+      </>)}</>)}</>)}
     </div>
   )
 }
