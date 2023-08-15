@@ -1,41 +1,211 @@
-.beton_mini1{
-    width: 240px;
-height: 233px; 
-border-radius: 41px;
-border: 1px solid #FFCB13;
-background: #FFF; 
-padding: 3px;
-}
-.beton_img{
-margin-top: 20px;
-}
-.beton_img img{
-    height: 140px;
-}
-.mySwiper{
-    width: 1200px;
-height: 698px; 
-border-radius: 41px; 
-border-color: #000000, #969696;
-}
-.beton_galochka{
-    margin-left: 170px;
-}
-.galochka{
-    width: 30px;
-height: 30px; 
-border-radius: 50% !important ;
-accent-color:#FFCB13; 
-color: white;
-}
-.beton_write{
+.beton_div{
+    width: 90%;
+    min-height:80vh ;
+    max-width: 1200px;
+    background: #F6F6F6; 
+    border-radius: 41px; 
+    border:1px solid #c2c1c1; 
+    padding: 20px 20px 30px 20px;
+  margin: auto;
+   /* gap: 40px; */
+  
+  }
+  @media (max-width:1024px) {
+    .beton_line{
+      width: 100%;
+      display: flex;
+      align-items: center;
+  
+    }
+  }
+  .beton_p1{
     color: #939393;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal; 
-text-align: left;
-}
+  font-family: Montserrat Alternates;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+  }
+  .beton_div2{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 40px;
+  
+  }
+  .beton_mini{
+    width: 258px;
+  height: 233px; 
+  border-radius: 41px;
+  border: 1px solid #FFCB13;
+  background: #FFF; 
+  position: relative; 
+  }
+  .beton_mini2{
+    width: 258px;
+  height: 233px; 
+  border-radius: 41px;
+  background: linear-gradient(144deg, #000 0%, #757575 100%);
+  position: relative;
+  }
+  .beton_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  .beton_mini p{
+    color: #000;
+  text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+  }
+  .beton_galochka{
+    width: 38px;
+  height: 38px; 
+  border-radius: 23px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  }
+  .beton_p{
+    color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'Inter Tight', sans-serif;
+  margin-top: 80px;
+  }
+  .beton_wrote{
+    color: #C3C3C3;
+  font-family: 'Inter Tight', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+  .beton_line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30vh;
+  }
+  .beton_line p{
+    color: #939393;
+  text-align: right;
+  font-family: Montserrat Alternates;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .beton_line span{
+    color: #939393;
+  font-family: Montserrat Alternates;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .beton_lin2{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    max-width: 1029px;
+    background: #FFF;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.07);
+  margin-left: 20px;
+  
+  }
+  .beton_lin3{
+    width: 13%;
+    height: 10px;
+    border-radius: 10px;
+    background: #FFCB13; 
+  }
+  .beton_button1{
+    width: 117px;
+  height: 44px;
+  border-radius: 9px;
+  border: 1px solid #E93333;
+  color: #E93333;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000000;
+  }
+  .beton_button1 h3 {
+  margin-top: 25px;
+  margin-right: 6px;
+  }
+  .beton_button2{
+    width: 117px;
+  height: 44px;
+  border-radius: 9px;
+  border: 1px solid #E93333;
+  background: #E93333;
+  color: #FFF;
+  font-size: 16px;
+  font-family: 'Inter Tight', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .beton_button2 h3 {
+  margin-top: 25px;
+  margin-left: 6px;
+  }
+  .beton_but{
+    display: flex;
+  justify-content: space-between;
+  }
+  .checkbox-field{
+    opacity: 0;
+  }
+  .checkbox-label{
+  
+  
+    font-size: 1.6em;
+    line-height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .checkbox-label::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 38px;
+    height: 38px; 
+    border-radius: 100%;
+    background-color: #FFCB13;
+  }
+  .checkbox-label::after{
+    content: '';
+    position: absolute;
+    left: 14px;
+  top: 7px;
+  width: 6px;
+  height: 13px;
+  border: solid black;
+  border-width: 0 6px 6px 0;
+  transition: 0.2s ease;
+  }
+  .checkbox-field:not(:checked) + .checkbox-label::after{
+    transform: scale(0);
+    opacity: 0;
+  
+  }
+  .checkbox-field:checked + .checkbox-label::after{
+    transform: rotate(35deg) scale(1) ;
+    opacity: 1;
+  }
 .beton_write1{
     color: #939393;
 font-size: 24px;
@@ -43,167 +213,8 @@ font-style: normal;
 font-weight: 500;
 margin-right: 1020px;
 }
-.beton_card{
-    display: flex;
-    justify-content: space-around;
-   flex-wrap: wrap;
-   gap: 40px;
-}
-@media(max-width:1024px){
-  
-    .beton_write{
-        color: #939393;
-    text-align: center;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal; 
-    }
 
-    .beton_line{
-        width: 100%;
-    height: 10px; 
-    background: #FFF;
-    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.07); 
-    border-radius: 10px;
-    margin-left: 15px;
-    }
-    .beton_linee{
-        display: flex;
-        align-items: center;
-    
-    }
-    .beton_button1{
-        width: 117px;
-    height: 44px; 
-    border-radius: 9px;
-    border: 1px solid #E93333; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    }
-    .beton_button1 a{
-    margin-left: 10px;
-    color: #E93333; 
-    text-decoration: none;
-    }
-    .beton_button1 h3{
-        margin-top: 23px;
-        color: #E93333; 
-    }
-    .beton_button2 a{
-    
-        color: #ffffff; 
-        text-decoration: none;
-        
-        }
-        .beton_button2 h3{
-            margin-top: 25px;
-            color: #ffffff; 
-            margin-left: 10px;
-        }
-    .beton_button2{
-        width: 117px;
-    height: 44px; 
-    border-radius: 9px;
-    border: 1px solid #E93333;
-    background: #E93333; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-    .beton_button{
-        display: flex;
-        justify-content: space-between;
-    }
-    .beton_table{
-        flex-wrap: wrap;
 
-    }
-}
-.beton_div{
-    background: #F6F6F6; 
-    width: 65%;
-border-radius: 41px; 
-border: 1px solid #969696;
-padding: 20px 25px 40px 25px;
-margin-top: 50px;
-
-}
-.beton_div2{
-    background: #F6F6F6; 
-    width: 100%;
-border-radius: 41px; 
-border: 1px solid #969696;
-padding: 20px 15px 20px 15px;
-margin-top: 50px;
-
-}
-.beton_nj{
-    color: #000;
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal; 
-margin-top: -7px;
-
-}
-.beton_nj2{
-    color: #000;
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal; 
-margin-top: -15px;
-}
-
-.beton_mini4{
-    width: 240px;
-    height: 233px; 
-    border-radius: 41px;
-background: linear-gradient(144deg, #000 0%, #757575 100%);
-padding: 3px;
-}
-.beton_yozuv{
-    color: #FFF;
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal; 
-margin-top: 40px;
-}
-.beton_yozuv1{
-    color: #C3C3C3;
-text-align: center;
-font-size: 15px;
-font-style: normal;
-font-weight: 500;
-line-height: normal; 
-text-align: center;
-}
-.beton_line{
-    width: 100%;
-height: 10px; 
-background: #FFF;
-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.07); 
-border-radius: 10px;
-margin-left: 15px;
-}
-.beton_linee{
-    display: flex;
-    align-items: center;
-
-}
-.beton_linee1{
-    display: flex;
-    align-items: center;
-margin-top: 50px; 
-margin-left: 40px; 
-
-}
 .beton_linee12{
     display: flex;
     align-items: center;
@@ -223,13 +234,7 @@ margin-left: 40px;
     align-items: center;
     margin-left: 40px; 
 }
-.beton_line2{
-    width: 12%;
-height: 10px; 
-background: #FFCB13; 
-border-radius: 10px;
 
-}
 .beton_line23{
     width: 230px;
 height: 10px; 
@@ -258,65 +263,7 @@ background: #FFCB13;
 border-radius: 10px;
 
 }
-.beton_nomer{
-    color: #939393;
-text-align: right;
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: normal; 
-}
-.beton_nomer span{
-    color: #939393;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal; 
-}
-.beton_button1{
-    width: 117px;
-height: 44px; 
-border-radius: 9px;
-border: 1px solid #E93333; 
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: white;
-}
-.beton_button1 a{
-margin-left: 10px;
-color: #E93333; 
-text-decoration: none;
-}
-.beton_button1 h3{
-    margin-top: 20px;
-    color: #E93333; 
-}
-.beton_button2 a{
 
-    color: #ffffff; 
-    text-decoration: none;
-    
-    }
-    .beton_button2 h3{
-        margin-top: 20px;
-        color: #ffffff; 
-        margin-left: 10px;
-    }
-.beton_button2{
-    width: 117px;
-height: 44px; 
-border-radius: 9px;
-border: 1px solid #E93333;
-background: #E93333; 
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.beton_button{
-    display: flex;
-    justify-content: space-between;
-}
 
 .range-input {
     -webkit-appearance: none;
