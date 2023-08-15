@@ -9,7 +9,7 @@ import Zakazbeton6 from '../src/js/Zakazbeton6';
 import Zakazbeton7 from '../src/js/Zakazbeton7';
 import Zakazbeton8 from '../src/js/Zakazbeton8';
 import Zakazbeton9 from '../src/js/Zakazbeton9';
-
+import Navbar from './js/Navbar';
 import './App.css';
 
 class App extends Component {
