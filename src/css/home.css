@@ -1,0 +1,2499 @@
+body{
+    background-color: white;
+}
+.rek{
+    width: 67%;
+    margin: auto;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.rek img{
+    width: 100%;
+}
+@media(max-width:1100px){
+    .rek{
+        width: 70%;
+        margin: auto;
+        margin-top: 60px;
+        cursor: pointer;
+    }
+    .rek img{
+        width: 100%;
+    }
+}
+@media(max-width:900px){
+    .rek{
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+        cursor: pointer;
+    }
+    .rek img{
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .rek{
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+        cursor: pointer;
+    }
+    .rek img{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media(max-width:500px){
+    .rek{
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+    .rek img{
+        width: 100%;
+        height: 160px;
+    }
+}
+.beton_z{
+    width: 100%;
+    margin-top: 100px;
+}
+.beton_sar{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    right: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.beton_sar span{
+    font-size: 47px;
+    font-weight: 600;
+    color: #000000;
+}
+@media(max-width:1540px){
+    .beton_sar{
+        width: 380px;
+        margin: auto;
+        position: relative;
+        right: 320px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .beton_sar span{
+        font-size: 45px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+@media(max-width:1300px){
+    .beton_sar{
+        width: 380px;
+        margin: auto;
+        position: relative;
+        right: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .beton_sar span{
+        font-size: 45px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+@media(max-width:1100px){
+    .beton_sar{
+        width: 380px;
+        margin: auto;
+        position: relative;
+        right: 190px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .beton_sar span{
+        font-size: 45px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+@media(max-width:1000px){
+    .beton_sar{
+        width: 380px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .beton_sar span{
+        font-size: 45px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+@media(max-width:800px){
+    .beton_sar{
+        width: 340px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .beton_sar span{
+        font-size: 40px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .beton_z{
+        width: 100%;
+        margin-top: 60px;
+    }
+}
+@media(max-width:600px){
+    .beton_sar{
+        width: 300px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .beton_sar span{
+        font-size: 35px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .beton_z{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .img1{
+        width: 40px;
+    }
+}
+.beton_sar1{
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    right: 350px;
+    margin-bottom: 40px;
+}
+.beton_sar1 span{
+    font-size: 47px;
+    font-weight: 600;
+    color: #000000;
+}
+.br1{
+    display: none;
+}
+@media(max-width:1540px){
+    .beton_sar1{
+        width: 540px;
+        margin: auto;
+        position: relative;
+        right: 235px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .beton_sar1 span{
+        font-size: 45px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+@media(max-width:1300px){
+    .beton_sar1{
+        width: 540px;
+        margin: auto;
+        position: relative;
+        right: 170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .beton_sar1 span{
+        font-size: 45px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+@media(max-width:1100px){
+    .beton_sar1{
+        width: 540px;
+        margin: auto;
+        position: relative;
+        right: 105px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .beton_sar1 span{
+        font-size: 45px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+@media(max-width:1000px){
+    .beton_sar1{
+        width: 540px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .beton_sar1 span{
+        font-size: 45px;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+@media(max-width:800px){
+    .beton_sar1{
+        width: 430px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .beton_sar1 span{
+        font-size: 36px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .beton_z{
+        width: 100%;
+        margin-top: 60px;
+    }
+}
+@media(max-width:600px){
+    .beton_sar1{
+        width: 310px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .beton_sar1 span{
+        text-align: center;
+        font-size: 26.5px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .beton_z{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .img1{
+        width: 35px;
+    }
+  
+}
+.beton_z_span{
+    width: 440px;
+    margin: auto;
+    position: relative;
+    right: 315px;
+}
+.beton_z_span{
+    color: #ACACAC;
+    font-size: 17px;
+}
+@media(max-width:1540px){
+    .beton_z_span{
+        width: 440px;
+        margin: auto;
+        position: relative;
+        right: 190px;
+    }
+}
+@media(max-width:1300px){
+    .beton_z_span{
+        width: 440px;
+        margin: auto;
+        position: relative;
+        right: 130px;
+    }
+}
+@media(max-width:1100px){
+    .beton_z_span{
+        width: 440px;
+        margin: auto;
+        position: relative;
+        right: 60px;
+    }
+}
+@media(max-width:1000px){
+    .beton_z_span{
+        width: 380px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+    }
+}
+@media(max-width:800px){
+    .beton_z_span{
+        width: 360px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+    }
+}
+@media(max-width:600px){
+    .beton_z_span{
+        width: 300px;
+        margin: auto;
+        position: relative;
+        right: 0px;
+        margin-top: 25px;
+    }
+    .beton_z_span{
+        color: #ACACAC;
+        font-size: 14px;
+    }
+}
+.biton_hed{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+.bit_hed1{
+    width: 550px;
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    top: 200px;
+}
+.bit_hed2{
+    display: flex;
+    flex-direction:column;
+    width: 550px;
+}
+.bit_hed1 img{
+    margin-bottom: 50px;
+}
+.bit_hed2 img{
+    margin-bottom: 50px;
+}
+.img2{
+    position: relative;
+    top: 50px;
+}
+@media(max-width:1540px){
+    .bit_hed1{
+        width: 500px;
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top: 200px;
+    }
+    .bit_hed2{
+        display: flex;
+        flex-direction:column;
+        width: 500px;
+    }
+}
+@media(max-width:1100px){
+    .bit_hed1{
+        width: 450px;
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top: 200px;
+    }
+    .bit_hed2{
+        display: flex;
+        flex-direction:column;
+        width: 450px;
+    }
+}
+@media(max-width:900px){
+    .bit_hed1{
+        width: 400px;
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top: 200px;
+    }
+    .bit_hed2{
+        display: flex;
+        flex-direction:column;
+        width: 400px;
+    }
+}
+@media(max-width:800px){
+    .biton_hed{
+        width: 80%;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 50px;
+        bottom: 0px;
+    }
+    .img2{
+        position: relative;
+        top: 0px;
+    }
+    .bit_hed1{
+        width: 400px;
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top: 0px;
+    }
+    .bit_hed2{
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        width: 400px;
+    }
+}
+@media(max-width:500px){
+    .biton_hed{
+        width: 100%;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 50px;
+        bottom: 0px;
+    }
+    .bit_hed1{
+        width: 320px;
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top: 0px;
+    }
+    .bit_hed2{
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        width: 320px;
+    }
+    .img2{
+        position: relative;
+        top: 0px;
+    }
+}
+@media(max-width:350px){
+    .biton_hed{
+        width: 100%;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 50px;
+        bottom: 0px;
+    }
+    .bit_hed1{
+        width: 300px;
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top: 0px;
+    }
+    .bit_hed2{
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        width: 300px;
+    }
+    .img2{
+        position: relative;
+        top: 0px;
+    }
+}
+.beton_mashina{
+    width: 100%;
+    margin-top: 150px;
+}
+.bet_mashina1{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bet_mash1{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("../img/light-gray-concrete-wall\ 2.png");
+}
+.bet_mash11{
+    width: 250px;
+    position: relative;
+    bottom: 30px;
+}
+.bet_mash1 h1{
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+    color: #a7a7a7;
+    font-size: 60px;
+}
+.bet_mash2{
+    width: 650px;
+    height: 300px;
+    background-color: #FFCB13;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.bet_mash3{
+    width: max-content;
+    margin: auto;
+}
+.img3{
+    width: 280px;
+    position: relative;
+    bottom: 100px;
+    left: -490px;
+}
+.p{
+    color: #000000CC;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    
+}
+.p1{
+    width: 550px;
+    line-height: 25px;
+    margin: auto;
+    color: #000000CC;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.p2{
+    color: #000000;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+.pp2{
+    color: black;
+    font-weight: 900 !important;
+}
+@media(max-width:1540px){
+    .img3{
+        width: 280px;
+        position: relative;
+        bottom: 100px;
+        left: -470px;
+    }
+    .bet_mashina1{
+        width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bet_mash1{
+        width: 400px;
+        height: 300px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url("../img/light-gray-concrete-wall\ 2.png");
+    }
+    .bet_mash11{
+        width: 250px;
+        position: relative;
+        bottom: 30px;
+    }
+    .bet_mash1 h1{
+        font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+        color: #a7a7a7;
+        font-size: 60px;
+    }
+    .bet_mash2{
+        width: 600px;
+        height: 300px;
+        background-color: #FFCB13;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .p{
+        color: #000000CC;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        
+    }
+    .p1{
+        width: 550px;
+        line-height: 25px;
+        margin: auto;
+        color: #000000CC;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .p2{
+        color: #000000;
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 25px;
+    }
+}
+@media(max-width:1200px){
+    .img3{
+        width: 240px;
+        position: relative;
+        bottom: 100px;
+        left: -370px;
+    }
+    .bet_mashina1{
+        width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bet_mash1{
+        width: 300px;
+        height: 250px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url("../img/light-gray-concrete-wall\ 2.png");
+    }
+    .bet_mash11{
+        width: 210px;
+        position: relative;
+        bottom: 30px;
+    }
+    .bet_mash1 h1{
+        font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+        color: #a7a7a7;
+        font-size: 50px;
+    }
+    .bet_mash2{
+        width: 500px;
+        height: 250px;
+        background-color: #FFCB13;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .p{
+        color: #000000CC;
+        font-size: 17.5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        
+    }
+    .p1{
+        width: 450px;
+        line-height: 20px;
+        margin: auto;
+        color: #000000CC;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .p2{
+        color: #000000;
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+}
+@media(max-width:950px){
+    .beton_mashina{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .img3{
+        width: 150px;
+        position: relative;
+        bottom: 370px;
+        left: -170px;
+    }
+    .bet_mashina1{
+        width: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .bet_mash1{
+        margin: auto;
+        width: 500px;
+        height: 250px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url("../img/light-gray-concrete-wall\ 2.png");
+    }
+    .bet_mash11{
+        width: max-content;
+        position: relative;
+        bottom: 30px;
+    }
+    .bet_mash1 h1{
+        font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+        color: #a7a7a7;
+        font-size: 50px;
+    }
+    .bet_mash2{
+        width: 500px;
+        margin: auto;
+        height: 250px;
+        background-color: #FFCB13;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    .p{
+        color: #000000CC;
+        font-size: 17.5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        
+    }
+    .p1{
+        width: 450px;
+        line-height: 20px;
+        margin: auto;
+        color: #000000CC;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .p2{
+        color: #000000;
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+}
+@media(max-width:650px){
+    .beton_mashina{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .img3{
+        width: 125px;
+        position: relative;
+        bottom: 355px;
+        left: -170px;
+    }
+    .bet_mashina1{
+        width: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .bet_mash1{
+        margin: auto;
+        width: 500px;
+        height: 250px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url("../img/light-gray-concrete-wall\ 2.png");
+    }
+    .bet_mash11{
+        width: max-content;
+        position: relative;
+        bottom: 30px;
+    }
+    .bet_mash1 h1{
+        font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+        color: #a7a7a7;
+        font-size: 50px;
+    }
+    .bet_mash2{
+        width: 500px;
+        margin: auto;
+        height: 250px;
+        background-color: #FFCB13;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    .p{
+        color: #000000CC;
+        font-size: 17.5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        
+    }
+    .p1{
+        width: 450px;
+        line-height: 20px;
+        margin: auto;
+        color: #000000CC;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .p2{
+        color: #000000;
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+}
+@media(max-width:600px){
+    .beton_mashina{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .img3{
+        width: 125px;
+        position: relative;
+        bottom: 360px;
+        left: -135px;
+    }
+    .bet_mashina1{
+        width: 400px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .bet_mash1{
+        margin: auto;
+        width: 400px;
+        height: 250px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url("../img/light-gray-concrete-wall\ 2.png");
+    }
+    .bet_mash11{
+        width: max-content;
+        position: relative;
+        bottom: 30px;
+    }
+    .bet_mash1 h1{
+        font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+        color: #a7a7a7;
+        font-size: 50px;
+    }
+    .bet_mash2{
+        width: 400px;
+        margin: auto;
+        height: 250px;
+        background-color: #FFCB13;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        
+    }
+    .p{
+        color: #000000CC;
+        font-size: 16.5px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        
+    }
+    .p1{
+        width: 350px;
+        line-height: 20px;
+        margin: auto;
+        color: #000000CC;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .p2{
+        color: #000000;
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+}
+@media(max-width:430px){
+    .beton_mashina{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .img3{
+        width: 105px;
+        position: relative;
+        bottom: 350px;
+        left: -100px;
+    }
+    .bet_mashina1{
+        width: 320px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .bet_mash1{
+        margin: auto;
+        width: 320px;
+        height: 250px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url("../img/light-gray-concrete-wall\ 2.png");
+    }
+    .bet_mash11{
+        width: max-content;
+        position: relative;
+        bottom: 30px;
+    }
+    .bet_mash1 h1{
+        font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+        color: #a7a7a7;
+        font-size: 40px;
+    }
+    .bet_mash2{
+        width: 320px;
+        margin: auto;
+        height: 250px;
+        background-color: #FFCB13;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        
+    }
+    .p{
+        color: #000000CC;
+        font-size: 16.5px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        
+    }
+    .p1{
+        width: 270px;
+        line-height: 18px;
+        margin: auto;
+        color: #000000CC;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .p2{
+        color: #000000;
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+}
+@media(max-width:350px){
+    .beton_mashina{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .img3{
+        width: 105px;
+        position: relative;
+        bottom: 350px;
+        left: -95px;
+    }
+    .bet_mashina1{
+        width: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .bet_mash1{
+        margin: auto;
+        width: 300px;
+        height: 250px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url("../img/light-gray-concrete-wall\ 2.png");
+    }
+    .bet_mash11{
+        width: max-content;
+        position: relative;
+        bottom: 30px;
+    }
+    .bet_mash1 h1{
+        font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+        color: #a7a7a7;
+        font-size: 40px;
+    }
+    .bet_mash2{
+        width: 300px;
+        margin: auto;
+        height: 250px;
+        background-color: #FFCB13;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        
+    }
+    .p{
+        color: #000000CC;
+        font-size: 16.5px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        
+    }
+    .p1{
+        width: 270px;
+        line-height: 18px;
+        margin: auto;
+        color: #000000CC;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .p2{
+        color: #000000;
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+}
+.beton_homiy{
+    width: max-content;
+    margin: auto;
+}
+.beton_homiy h1{
+    color: black;
+    font-size: 47px;
+}
+.beton_homiy1{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+}
+@media(max-width:1100px){
+    .beton_homiy1{
+        width: 850px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 80px;
+        flex-wrap: wrap-reverse;
+    }
+    .beton_homiy h1{
+        color: black;
+        font-size: 45px;
+    }
+}
+@media(max-width:850px){
+    .beton_homiy1{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 80px;
+        flex-wrap: wrap-reverse;
+    }
+    .beton_homiy h1{
+        color: black;
+        font-size: 45px;
+    }
+    .beton_homiy1 img{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:650px){
+    .beton_homiy1{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 80px;
+        flex-wrap: wrap-reverse;
+    }
+    .beton_homiy h1{
+        color: black;
+        font-size: 40px;
+    }
+    .beton_homiy1 img{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:600px){
+    .beton_homiy1{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 80px;
+        flex-wrap: wrap-reverse;
+    }
+    .beton_homiy h1{
+        color: black;
+        font-size: 35px;
+    }
+    .beton_homiy1 img{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:510px){
+    .beton_homiy1{
+        width: 410px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 50px;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .img4{
+        width: max-content;
+        margin: auto;
+    }
+    .img5 img{
+        height: 52px;
+    }
+    .beton_homiy h1{
+        color: black;
+        font-size: 35px;
+    }
+    .beton_homiy1 img{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:430px){
+    .beton_homiy1{
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 50px;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .img4{
+        width: max-content;
+        margin: auto;
+    }
+    .img5 img{
+        height: 52px;
+    }
+    .beton_homiy h1{
+        color: black;
+        font-size: 35px;
+    }
+    .beton_homiy1 img{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:350px){
+    .beton_homiy1{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .img4{
+        width: max-content;
+        margin: auto;
+    }
+    .img5 img{
+        height: 52px;
+    }
+    .beton_homiy h1{
+        color: black;
+        font-size: 35px;
+    }
+    .beton_homiy1 img{
+        margin-bottom: 30px;
+    }
+}
+.rating-result {
+	width: 165px;
+}
+.rating-result span {
+	padding: 0;
+	font-size: 25px;
+	margin: 0 1px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+	content: '★';
+    cursor: pointer;
+}
+.rating-result > span.active {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.beton_analiz{
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+}
+.bet_ana1{
+    width: 200px;
+    text-align: center;
+}
+.bet_ana2{
+    width: 620px;
+    
+}
+.bet_ana_1{
+    width: 140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.s3{
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+}
+.bet_ana11{
+    width: 180px;
+    margin: auto;
+    height: 70px;
+    box-shadow: 0 2px 5px grey;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.bet_ana11 img{
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.s4{
+    color: #737373;
+    font-size: 18px;
+    line-height: 28px;
+}
+.bet_ana22{
+    width: 600px;
+}
+.bet_ana22 span{
+    color: #E93333;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
+}
+.br2{
+    display: none;
+}
+@media(max-width:1540px){
+    .s6{
+        position: relative;
+        left: 1px !important;
+    }
+}
+@media(max-width:900px){
+    .s6{
+        position: relative;
+        left: -10px !important;
+    }
+    .beton_analiz{
+        width: 640px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .bet_ana1{
+        width: 160px;
+        text-align: center;
+    }
+    .bet_ana2{
+        width: 430px;
+    
+    }
+    .bet_ana11{
+        width: 160px;
+        margin: auto;
+        height: 60px;
+        box-shadow: 0 2px 5px grey;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+    .bet_ana11 img{
+        height: 18px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .s4{
+        color: #737373;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .bet_ana22{
+        width: 450px;
+    }
+    .bet_ana22 span{
+        color: #E93333;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+        right: 10px;
+    }
+    .rating-result span {
+        padding: 0;
+        font-size: 22px;
+        margin: 0 1px;
+        line-height: 1;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+    }
+    .s3{
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        top: 2px;
+    }
+    .bet_ana_1{
+        width: 130px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .br2{
+        display: block;
+    }
+    .br1{
+        display: none;
+    }
+}
+@media(max-width:650px){
+    .beton_analiz{
+        width: 430px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    .bet_ana1{
+        width: 430px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .bet_ana2{
+        width: 430px;
+        position: relative;
+        left: 10px;
+    
+    }
+    .bet_ana11{
+        width: 160px;
+        margin: auto;
+        height: 60px;
+        box-shadow: 0 2px 5px grey;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+    .bet_ana11 img{
+        height: 18px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .s4{
+        color: #737373;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .bet_ana22{
+        width: 430px;
+    }
+    .bet_ana22 span{
+        color: #E93333;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+        right: 10px;
+    }
+    .rating-result span {
+        padding: 0;
+        font-size: 22px;
+        margin: 0 1px;
+        line-height: 1;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+    }
+    .s3{
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        top: 2px;
+    }
+    .bet_ana_1{
+        width: 130px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .br2{
+        display: block;
+    }
+    .br1{
+        display: none;
+    }
+}
+@media(max-width:450px){
+    .beton_analiz{
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    .bet_ana1{
+        width: 350px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .bet_ana2{
+        width: 350px;
+        position: relative;
+        left: 10px;
+    
+    }
+    .bet_ana11{
+        width: 150px;
+        margin: auto;
+        height: 60px;
+        box-shadow: 0 2px 5px grey;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+    .bet_ana11 img{
+        height: 18px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .s4{
+        color: #737373;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .bet_ana22{
+        width: 350px;
+    }
+    .bet_ana22 span{
+        color: #E93333;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+        right: 10px;
+    }
+    .rating-result span {
+        padding: 0;
+        font-size: 22px;
+        margin: 0 1px;
+        line-height: 1;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+    }
+    .s3{
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        top: 2px;
+    }
+    .bet_ana_1{
+        width: 130px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .s5{
+        position: relative;
+        left: 0px;
+    }
+    .br2{
+        display: block;
+    }
+    .br1{
+        display: none;
+    }
+}
+@media(max-width:365px){
+    .beton_analiz{
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .bet_ana1{
+        width: 320px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .bet_ana2{
+        width: 300px;
+        position: relative;
+        left: 10px;
+    
+    }
+    .bet_ana11{
+        width: 140px;
+        margin: auto;
+        height: 60px;
+        box-shadow: 0 2px 5px grey;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+    .bet_ana11 img{
+        height: 18px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .s4{
+        color: #737373;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .bet_ana22{
+        width: 300px;
+    }
+    .bet_ana22 span{
+        color: #E93333;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 600;
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+        right: 10px;
+    }
+    .rating-result span {
+        padding: 0;
+        font-size: 22px;
+        margin: 0 1px;
+        line-height: 1;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+    }
+    .s3{
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        top: 2px;
+    }
+    .bet_ana_1{
+        width: 130px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .s5{
+        position: relative;
+        left: 0px;
+    }
+    .br2{
+        display: block;
+    }
+    .br1{
+        display: none;
+    }
+}
+@media(max-width:330px){
+    .beton_analiz{
+        width: 310px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .bet_ana1{
+        width: 320px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .bet_ana2{
+        width: 300px;
+        position: relative;
+        left: 10px;
+    
+    }
+    .bet_ana11{
+        width: 140px;
+        margin: auto;
+        height: 60px;
+        box-shadow: 0 2px 5px grey;
+        border-radius: 6px;
+        margin-bottom: 15px;
+    }
+    .bet_ana11 img{
+        height: 18px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .s4{
+        color: #737373;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .bet_ana22{
+        width: 300px;
+    }
+    .bet_ana22 span{
+        color: #E93333;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 600;
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+        right: 10px;
+    }
+    .rating-result span {
+        padding: 0;
+        font-size: 22px;
+        margin: 0 1px;
+        line-height: 1;
+        color: lightgrey;
+        text-shadow: 1px 1px #bbb;
+    }
+    .s3{
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        top: 2px;
+    }
+    .bet_ana_1{
+        width: 130px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .s5{
+        position: relative;
+        left: 0px;
+    }
+    .br2{
+        display: block;
+    }
+    .br1{
+        display: none;
+    }
+}
+.seriy{
+    background-color: #f4f2f2;
+}
+.seriy1{
+    background-color: #FFFFFF;
+    margin-bottom: 150px;
+}
+.biton_klent{
+    width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.bit_kent1{
+    width: max-content;
+}
+.bit_kent2{
+    width: 700px;
+}
+.bit_kent_2{
+    width: 700px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.bit_kent_22{
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+.bit_kent_dumaloq{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    box-shadow: 0 5px 5px rgb(219, 219, 219);
+}
+.bit_kent2_sozi{
+    width: 520px;
+}
+.bit_kent2_sozi h3{
+    margin-bottom: 10px;
+}
+.bit_kent2_sozi span{
+    color: #737373;
+    line-height: 30px;
+    font-size: 15px;
+}
+.dumaloq1{
+    position: relative;
+    top: -3px !important;
+}
+.bit_kent_but{
+    width: 525px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b3{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #FFCB13;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+.b4{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #EBEBEB;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bit_kent_1 h1{
+    color: black;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.bit_kent_1{
+    margin-bottom: 35px;
+    width: max-content;
+}
+@media(max-width:1250px){
+    .b3{
+        width: 200px;
+        height: 35px;
+        border-radius: 30px;
+        background-color: #FFCB13;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        cursor: pointer;
+        color: black;
+        font-weight: 600;
+    }
+    .b4{
+        width: 200px;
+        height: 35px;
+        border-radius: 30px;
+        background-color: #EBEBEB;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        color: black;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .biton_klent{
+        width: 900px;
+        margin: auto;
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .img6{
+        height: 360px;
+    }
+    .bit_kent2{
+        width: 600px;
+    }
+    .bit_kent_2{
+        width: 550px;
+        height: 200px;
+        border: 5px solid white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+    .bit_kent_22{
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bit_kent_dumaloq{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 20px;
+        box-shadow: 0 5px 5px rgb(219, 219, 219);
+    }
+    .dumaloq11{
+        position: relative;
+        top: -30px;
+    }
+    .bit_kent2_sozi{
+        width: 380px;
+    }
+    .bit_kent2_sozi h3{
+        margin-bottom: 10px;
+    }
+    .bit_kent2_sozi span{
+        color: #737373;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .dumaloq1{
+        position: relative;
+        top: -0px !important;
+    }
+    .bit_kent_but{
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bit_kent2_sozi span{
+        color: #737373;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .bit_kent2_sozi h3{
+        font-size: 17px;
+    }
+}
+@media(max-width:910px){
+    .biton_klent{
+        width: 500px;
+        margin: auto;
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+    .bit_kent_1{
+        margin: auto;
+    }
+    .bit_kent_but{
+        width: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .img6{
+        height: 360px;
+    }
+    .bit_kent1{
+        margin: auto;
+    }
+    .bit_kent2{
+        width: 500px;
+    }
+    .bit_kent_2{
+        width: 500px;
+        height: 200px;
+        border: 5px solid white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+        
+        
+    }
+    .bit_kent_22{
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bit_kent_dumaloq{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 20px;
+        box-shadow: 0 5px 5px rgb(219, 219, 219);
+    }
+    .dumaloq11{
+        position: relative;
+        top: -30px;
+    }
+    .bit_kent2_sozi{
+        width: 380px;
+    }
+    .bit_kent2_sozi h3{
+        margin-bottom: 10px;
+    }
+    .bit_kent2_sozi span{
+        color: #737373;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .dumaloq1{
+        position: relative;
+        top: -0px !important;
+    }
+    .bit_kent_but{
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bit_kent2_sozi span{
+        color: #737373;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .bit_kent2_sozi h3{
+        font-size: 17px;
+    }
+}
+@media(max-width:650px){
+    .bit_kent_1 h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:600px){
+    .bit_kent_1 h1{
+        font-size: 35px;
+        width: max-content;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .seriy1{
+        background-color: #FFFFFF;
+        margin-bottom: 80px;
+    }
+}
+@media(max-width:510px){
+    .biton_klent{
+        width: 410px;
+        margin: auto;
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+    .bit_kent_but{
+        width: 410px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .img6{
+        height: 300px;
+        position: relative;
+        right: 10px;
+    }
+    .bit_kent1{
+        margin: auto;
+    }
+    .bit_kent2{
+        width: 410px;
+    }
+    .bit_kent_2{
+        width: 410px;
+        height: 200px;
+        border: 5px solid white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+        
+        
+    }
+    .bit_kent_22{
+        width: 390px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bit_kent_dumaloq{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 20px;
+        box-shadow: 0 5px 5px rgb(219, 219, 219);
+    }
+    .bit_kent_dumaloq img{
+        width: 30px;
+        height: 30px;
+    }
+    .dumaloq11{
+        position: relative;
+        top: -15px;
+    }
+    .bit_kent2_sozi{
+        width: 320px;
+    }
+    .bit_kent2_sozi h3{
+        margin-bottom: 10px;
+    }
+    .bit_kent2_sozi span{
+        color: #737373;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .dumaloq1{
+        position: relative;
+        top: -0px !important;
+    }
+    .bit_kent_but{
+        width: 410px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bit_kent2_sozi span{
+        color: #737373;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .bit_kent2_sozi h3{
+        font-size: 17px;
+    }
+}
+@media(max-width:430px){
+
+    .bit_kent_1 h1{
+        color: black;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .b3{
+        width: 165px;
+        height: 32px;
+        border-radius: 30px;
+        background-color: #FFCB13;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        cursor: pointer;
+        color: black;
+        font-weight: 400;
+    }
+    .b4{
+        width: 165px;
+        height: 32px;
+        border-radius: 30px;
+        background-color: #EBEBEB;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        color: black;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .biton_klent{
+        width: 350px;
+        margin: auto;
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+    .bit_kent_but{
+        width: 350px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .img6{
+        height: 250px;
+        position: relative;
+        right: 10px;
+    }
+    .bit_kent1{
+        margin: auto;
+    }
+    .bit_kent2{
+        width: 350px;
+    }
+    .bit_kent_2{
+        width: 350px;
+        height: 180px;
+        border: 5px solid white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+        
+        
+    }
+    .bit_kent_22{
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bit_kent_dumaloq{
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 50px !important;
+        box-shadow: 0 5px 5px rgb(219, 219, 219);
+    }
+    .bit_kent_dumaloq img{
+        width: 30px;
+        height: 30px;
+    }
+    .dumaloq11{
+        position: relative;
+        top: -50px;
+    }
+    .bit_kent2_sozi{
+        width: 250px;
+    }
+    .bit_kent2_sozi h3{
+        margin-bottom: 10px;
+    }
+    .bit_kent2_sozi span{
+        color: #737373;
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .dumaloq1{
+        position: relative;
+        top: -50px !important;
+    }
+    .bit_kent_but{
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bit_kent2_sozi h3{
+        font-size: 16px;
+    }
+}
+@media(max-width:370px){
+    .bit_kent_1 h1{
+        color: black;
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+    .b3{
+        width: 140px;
+        height: 32px;
+        border-radius: 30px;
+        background-color: #FFCB13;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        cursor: pointer;
+        color: black;
+        font-weight: 400;
+    }
+    .b4{
+        width: 140px;
+        height: 32px;
+        border-radius: 30px;
+        background-color: #EBEBEB;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        color: black;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .biton_klent{
+        width: 300px;
+        margin: auto;
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+    .bit_kent_but{
+        width: 300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .img6{
+        height: 210px;
+        position: relative;
+        right: 10px;
+    }
+    .bit_kent1{
+        margin: auto;
+    }
+    .bit_kent2{
+        width: 300px;
+    }
+    .bit_kent_2{
+        width: 295px;
+        height: 190px;
+        border: 5px solid white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+        
+        
+    }
+    .bit_kent_22{
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bit_kent_dumaloq{
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 50px !important;
+        box-shadow: 0 5px 5px rgb(219, 219, 219);
+    }
+    .bit_kent_dumaloq img{
+        width: 30px;
+        height: 30px;
+    }
+    .dumaloq11{
+        position: relative;
+        top: -50px;
+    }
+    .bit_kent2_sozi{
+        width: 230px;
+    }
+    .bit_kent2_sozi h3{
+        margin-bottom: 10px;
+    }
+    .bit_kent2_sozi span{
+        color: #737373;
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .dumaloq1{
+        position: relative;
+        top: -50px !important;
+    }
+    
+    .bit_kent2_sozi h3{
+        font-size: 16px;
+    }
+}
