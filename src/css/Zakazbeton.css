@@ -304,10 +304,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-<<<<<<< HEAD
-=======
 
->>>>>>> 5fa1d914ff73f5a8fba6731f23d74ed5abea80ba
 margin-left: 10px;
 
 }
@@ -322,18 +319,11 @@ align-items: center;
 .beton_oq{
     width: 24px;
 height: 24px; 
-<<<<<<< HEAD
 margin-left: 20px;
-=======
-margin-left: 20px
-}
+margin-left: 20px;
 
-<<<<<<< HEAD
->>>>>>> 5fa1d914ff73f5a8fba6731f23d74ed5abea80ba
 font-family: Montserrat Alternates;
   }
-=======
->>>>>>> 71eb86e9649677b13957f337fce72ac6267f684a
 
   .beton2_da{
     display: flex;

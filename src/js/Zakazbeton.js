@@ -1,20 +1,10 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5fa1d914ff73f5a8fba6731f23d74ed5abea80ba
 import React, { Component } from 'react'
 import { BsArrowLeft } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
 import '../css/Zakazbeton.css';
 import beton from "../img/m350 1.png";
-<<<<<<< HEAD
-=======
 import cement from "../img/cement 1(1).png";
 import tosh from "../img/183973062b952e05464d21c9f08676f9 1.png"
-// import { BsArrowLeft } from 'react-icons/bs';
-// import {BsArrowRight} from 'react-icons/bs';
-
 import beton from "../img/m350 1.png";
 >>>>>>> 5fa1d914ff73f5a8fba6731f23d74ed5abea80ba
 import React, { Component } from 'react'
@@ -22,10 +12,6 @@ import cement from "../img/cement 1(1).png";
 import tosh from "../img/183973062b952e05464d21c9f08676f9 1.png"
 import { BsArrowLeft } from 'react-icons/bs';
 import {BsArrowRight} from 'react-icons/bs';
-<<<<<<< HEAD
-=======
-
->>>>>>> 5fa1d914ff73f5a8fba6731f23d74ed5abea80ba
 import kich  from "../img/1548993561_log 1.png";
 import logo from "../img/logo.png";
 import kema from "../img/logop(1).png";
@@ -37,8 +23,7 @@ import fliev from "../img/fluent_arrow-fit-16-filled.png";
 import phu from "../img/ph_drop-fill.png";
 import shield from "../img/bxs_shield.png"
 import qor from "../img/Vector.png"
-<<<<<<< HEAD
-=======
+
 var data1=[{
   id:0,
   image:"../img/m350 1.png",
@@ -52,7 +37,6 @@ var data1=[{
   image:"../img/183973062b952e05464d21c9f08676f9 1.png",
   title:"Строительный раствор"
 }]
->>>>>>> 5fa1d914ff73f5a8fba6731f23d74ed5abea80ba
 export default class Zakazbeton extends Component {
   
   state={
