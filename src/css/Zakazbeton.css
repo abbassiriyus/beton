@@ -305,23 +305,6 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-<<<<<<< HEAD
-margin-left: 10px;
-}
-.beton_pagm{
-    display: flex;
-    margin-left: 30px;
-}
-.beton_sot1{
-    display: flex;
-align-items: center;
-}
-.beton_oq{
-    width: 24px;
-height: 24px; 
-margin-left: 20px
-}
-=======
 font-family: Montserrat Alternates;
 
   }
@@ -332,4 +315,3 @@ font-family: Montserrat Alternates;
     display: flex;
     align-items: center;
   }
->>>>>>> 0557116a20f7167f40ba948cb8936443940d5cf7

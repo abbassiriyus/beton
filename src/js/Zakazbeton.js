@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-import React, { Component } from 'react'
-import { BsArrowLeft } from 'react-icons/bs';
-import { BsArrowRight } from 'react-icons/bs';
-import '../css/Zakazbeton.css';
-var data1=[{
-  id:0,
-  image:"../img/m350 1.png",
-  title:"Бетон"
-},{
-  id:0,
-  image:"../img/cement 1(1).png",
-  title:"Пескобетон"
-},{
-  id:0,
-  image:"../img/183973062b952e05464d21c9f08676f9 1.png",
-  title:"Строительный раствор"
-}]
-
-
-
-=======
 import beton from "../img/m350 1.png";
 import React, { Component } from 'react'
 import cement from "../img/cement 1(1).png";
@@ -37,7 +15,6 @@ import fliev from "../img/fluent_arrow-fit-16-filled.png";
 import phu from "../img/ph_drop-fill.png";
 import shield from "../img/bxs_shield.png"
 import qor from "../img/Vector.png"
->>>>>>> 0557116a20f7167f40ba948cb8936443940d5cf7
 export default class Zakazbeton extends Component {
   state={
     page:0,
