@@ -1,12 +1,7 @@
-
 import React, { Component } from 'react'
-
 import { BsArrowLeft } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
-
 import '../css/Zakazbeton.css';
-
-
 var data1=[{
   id:0,
   image:"../img/m350 1.png",
