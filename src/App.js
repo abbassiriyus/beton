@@ -12,30 +12,35 @@ import Zakazbeton9 from '../src/js/Zakazbeton9';
 import Navbar from './js/Navbar';
 import './App.css';
 import Login from './js/Login';
+
 import Error from './js/Error'
+
+import Home from './js/Home';
+
 
 class App extends Component {
 render() {
 	return (
-	<Router>
-		<div className="App">
-		<Routes>
-				<Route exact path='/' element={< Login />}></Route>
-				<Route exact path='/Zakazbeton' element={< Zakazbeton />}></Route>
-				<Route exact path='/zakazbeton2' element={< Zakazbeton2 />}></Route>
-				<Route exact path='/zakazbeton3' element={< Zakazbeton3 />}></Route>
-				<Route export path='/zakazbeton4' element={<Zakazbeton4/>}></Route>
-				<Route export path='/zakazbeton5' element={<Zakazbeton5/>}></Route>
-				<Route export path='/zakazbeton6' element={<Zakazbeton6/>}></Route>
-				<Route export path='/zakazbeton7' element={<Zakazbeton7/>}></Route>
-				<Route export path='/zakazbeton8' element={<Zakazbeton8/>}></Route>
-				<Route export path='/zakazbeton9' element={<Zakazbeton9/>}></Route>
-				<Route export path='/Navbar' element={<Navbar/>}></Route>
-				<Route export path='/Error' element={<Error/>}></Route>
 
-		</Routes>
-		</div>
-	</Router>
+	// 	<div className="App">
+	// 	<Routes>
+	// 			<Route exact path='/' element={< Login />}></Route>
+	// 			<Route exact path='/Zakazbeton' element={< Zakazbeton />}></Route>
+	// 			<Route exact path='/zakazbeton2' element={< Zakazbeton2 />}></Route>
+	// 			<Route exact path='/zakazbeton3' element={< Zakazbeton3 />}></Route>
+	// 			<Route export path='/zakazbeton4' element={<Zakazbeton4/>}></Route>
+	// 			<Route export path='/zakazbeton5' element={<Zakazbeton5/>}></Route>
+	// 			<Route export path='/zakazbeton6' element={<Zakazbeton6/>}></Route>
+	// 			<Route export path='/zakazbeton7' element={<Zakazbeton7/>}></Route>
+	// 			<Route export path='/zakazbeton8' element={<Zakazbeton8/>}></Route>
+	// 			<Route export path='/zakazbeton9' element={<Zakazbeton9/>}></Route>
+
+
+	// 	</Routes>
+	// 	</div>
+	// </Router>
+	<Home/>
+	
 );
 }
 }

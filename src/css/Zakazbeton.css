@@ -216,7 +216,6 @@ color: black;
 
 }
   .range-field{
-    -webkit-appearance: none;
     outline: none;
     width: 62%;
     height: 6px; 
@@ -305,7 +304,12 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5fa1d914ff73f5a8fba6731f23d74ed5abea80ba
 margin-left: 10px;
+
 }
 .beton_pagm{
     display: flex;
@@ -318,9 +322,16 @@ align-items: center;
 .beton_oq{
     width: 24px;
 height: 24px; 
+<<<<<<< HEAD
 margin-left: 20px;
+=======
+margin-left: 20px
+}
+
+>>>>>>> 5fa1d914ff73f5a8fba6731f23d74ed5abea80ba
 font-family: Montserrat Alternates;
   }
+
   .beton2_da{
     display: flex;
   }
