@@ -1,0 +1,317 @@
+.beton_div{
+    width: 90%;
+    min-height:80vh ;
+    max-width: 1200px;
+    background: #F6F6F6; 
+    border-radius: 41px; 
+    border:1px solid #c2c1c1; 
+    padding: 20px 20px 30px 20px;
+  margin: auto;
+  }
+  @media (max-width:1024px) {
+    .beton_line{
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .beton_img{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+      }
+  }
+  .beton_p1{
+    color: #939393;
+  font-family: Montserrat Alternates;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+  margin-left: 25px;
+  margin-top: 20px;
+  }
+  .beton_div2{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 40px;
+  margin-top: 20px;
+  }
+  .beton_mini{
+    width: 258px;
+  height: 233px; 
+  border-radius: 41px;
+  border: 1px solid #FFCB13;
+  background: #FFF; 
+  position: relative; 
+  }
+  .beton_mini2{
+    width: 258px;
+  height: 233px; 
+  border-radius: 41px;
+  background: linear-gradient(144deg, #000 0%, #757575 100%);
+  position: relative;
+  }
+  .beton_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  .beton_mini p{
+    color: #000;
+  text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; 
+  }
+  .beton_galochka{
+    width: 38px;
+  height: 38px; 
+  border-radius: 23px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  }
+  .beton_p{
+    color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'Inter Tight', sans-serif;
+  margin-top: 80px;
+  }
+  .beton_wrote{
+    color: #C3C3C3;
+  font-family: 'Inter Tight', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+  .beton_line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top:35vh;
+  }
+  .beton_line p{
+    color: #939393;
+  text-align: right;
+  font-family: Montserrat Alternates;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .beton_line span{
+    color: #939393;
+  font-family: Montserrat Alternates;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .beton_lin2{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    max-width: 1029px;
+    background: #FFF;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.07);
+  margin-left: 20px;
+  
+  }
+  .beton_lin3{
+    width: 13%;
+    height: 10px;
+    border-radius: 10px;
+    background: #FFCB13; 
+  }
+  .beton_button1{
+    width: 117px;
+  height: 44px;
+  border-radius: 9px;
+  border: 1px solid #E93333;
+  color: #E93333;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000000;
+  }
+  .beton_button1 h3 {
+  margin-top: 8px;
+  margin-right: 6px;
+  }
+  .beton_button2{
+    width: 117px;
+  height: 44px;
+  border-radius: 9px;
+  border: 1px solid #E93333;
+  background: #E93333;
+  color: #FFF;
+  font-size: 16px;
+  font-family: 'Inter Tight', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .beton_button2 h3 {
+  margin-top: 8px;
+  margin-left: 6px;
+  }
+  .beton_but{
+    display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  }
+  .checkbox-field{
+    opacity: 0;
+  }
+  .checkbox-label{
+    font-size: 1.6em;
+    line-height: 1em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .checkbox-label::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 38px;
+    height: 38px; 
+    border-radius: 100%;
+    background-color: #FFCB13;
+  }
+  .checkbox-label::after{
+    content: '';
+    position: absolute;
+    left: 14px;
+  top: 7px;
+  width: 6px;
+  height: 13px;
+  border: solid black;
+  border-width: 0 6px 6px 0;
+  transition: 0.2s ease;
+  }
+  .checkbox-field:not(:checked) + .checkbox-label::after{
+    transform: scale(0);
+    opacity: 0;
+  
+  }
+  .checkbox-field:checked + .checkbox-label::after{
+    transform: rotate(35deg) scale(1) ;
+    opacity: 1;
+  }
+  .range-label{
+    display: block;
+    font-size: 2em;
+color: black; 
+
+}
+  .range-field{
+    -webkit-appearance: none;
+    outline: none;
+    width: 62%;
+    height: 6px; 
+    border-radius:20px;
+    background-color: #777777;
+box-shadow: inset 0 0 5px rgb(0, 0, 0);
+overflow: hidden;
+}
+.range-field::-webkit-slider-thumb {
+    -webkit-appearance: none;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: rgb(255, 0, 0);
+box-shadow: -410px 0 0 400px black;
+cursor: pointer;
+}
+#customers {
+    border-collapse: collapse;
+    width: 94%;
+    height: 50px; 
+}
+.beton2_table1{
+    width: 70%;
+    max-height: 250px;
+    overflow-y: scroll; 
+    scrollbar-width: thin;
+    scrollbar-color: #C3C3C3;
+}
+  #customers td {
+    padding: 10px;
+    border-left: 1px solid #E6E6E6;
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-family: 'Nunito Sans', sans-serif;
+  }
+  #customers th {
+    padding: 10px;
+  }
+  .beton2_td{
+    color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+font-family: 'Nunito Sans', sans-serif;
+  }
+  #customers tr:hover {background-color: #ffffff;
+    border-radius: 12px; } 
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: #939393;
+font-size: 20px;
+font-style: normal;
+font-weight: 550;
+line-height: normal;
+font-family: 'Inter Tight', sans-serif;
+  }
+  .beton2_range p{
+    color: #000;
+font-family: Montserrat Alternates;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .beton2_range2{
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+  }
+  .beton2_accordion{
+    width: 30%;
+  }
+.beton2_accordion Accordion.Item{
+    background-color: green;
+}
+   .beton2_accordion p{
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-family: Montserrat Alternates;
+
+  }
+  .beton2_da{
+    display: flex;
+  }
+  .beton2_da2{
+    display: flex;
+    align-items: center;
+  }
