@@ -38,7 +38,7 @@ export default function Login() {
               <input type="text"  placeholder="Логин" required />
               <input type="password"  placeholder="Пароль" required />
               <input type="password"  placeholder="Повторите пароль" required /> <br />
-              <button type='button' onClick={()=>setPage(8)} >Зарегестрироваться</button>
+              <button type='button' onClick={()=>setPage(10)} >Зарегестрироваться</button>
               </form>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Login() {
               </div>
             </div>
          </div>
-         </div>):(<div></div>)))}
+         </div>):("")))}
       </>)}</>)}</>)}
     </div>
   )
