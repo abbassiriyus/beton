@@ -14,7 +14,8 @@ import '../css/Zakazbeton.css';
 export default class Zakazbeton2 extends Component {
   render() {
     return (
-<div className='beton_div' >   <p className='beton_write' >Производитель</p>
+<div className='beton_div' > 
+  <p className='beton_write' >Производитель</p>
 <div className="beton_chiziq">
 <div class="range">
   <div className="beton_range">
