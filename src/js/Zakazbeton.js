@@ -1,4 +1,5 @@
 
+
 import React, { Component } from 'react'
 import { BsArrowLeft } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
@@ -8,6 +9,14 @@ import cement from "../img/cement 1(1).png";
 import tosh from "../img/183973062b952e05464d21c9f08676f9 1.png"
 // import { BsArrowLeft } from 'react-icons/bs';
 // import {BsArrowRight} from 'react-icons/bs';
+
+import beton from "../img/m350 1.png";
+import React, { Component } from 'react'
+import cement from "../img/cement 1(1).png";
+import tosh from "../img/183973062b952e05464d21c9f08676f9 1.png"
+import { BsArrowLeft } from 'react-icons/bs';
+import {BsArrowRight} from 'react-icons/bs';
+
 import kich  from "../img/1548993561_log 1.png";
 import logo from "../img/logo.png";
 import kema from "../img/logop(1).png";
@@ -271,6 +280,7 @@ render(){
    }
    }
   
+   
    
 
  
