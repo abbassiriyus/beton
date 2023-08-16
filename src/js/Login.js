@@ -1,6 +1,8 @@
 import React, {useEffect,useState} from 'react'
 import '../css/Login.css'
 import log from '../img/log.png'
+import ofis from '../img/ofis.png'
+import tme from '../img/tme.png'
 
   function bosss(){
 
@@ -38,7 +40,7 @@ export default function Login() {
               <input type="text"  placeholder="Логин" required />
               <input type="password"  placeholder="Пароль" required />
               <input type="password"  placeholder="Повторите пароль" required /> <br />
-              <button type='button' onClick={()=>setPage(10)} >Зарегестрироваться</button>
+              <button type='button' onClick={()=>setPage2(10)} >Зарегестрироваться</button>
               </form>
               </div>
             </div>
@@ -70,7 +72,45 @@ export default function Login() {
             
             
         </div>
-      </div>))):(<>{page2==6?("6"):(<>{page2==7?("7"):(
+      </div>))):(<>{page2==6?(<div id='juda-kotta'>
+        <div className="login-kotta">
+        <div className="teper-login6" >
+        <div className="img-x1">
+          <div className="login-img1">
+            <img src={ofis} alt="" />
+          </div>
+          <div className="login-x" ><box-icon name='x' onClick={()=>setPage2(3)} color="#ACACAC"   size="35px"></box-icon></div>
+        </div>
+            <div className="fizika-litso1">
+              <h1>Регистрация</h1>
+              <p>Организация</p>
+              <br />
+                <div className="page-6">
+                    <form action="">
+                    <input type="text" placeholder='Имя' />
+                    <input type="text"   placeholder='Фамилия'/>
+                    <input type="text"   placeholder='Отчество'/>
+                    <input type="tel" placeholder='Телефон' />
+                    <input type="email" placeholder='Email' />
+                    <input type="text" placeholder='ИНН' />
+                    <input type="text" placeholder='Реквизиты' />
+                    </form>
+                    <div className="rekvezit">
+                      <div className="rekvezit-img">
+                      <img src={tme} alt="" />
+                      </div>
+                      <div className="rekvezit-text"><p>Прикрепить документы</p></div>
+                      
+                    </div>
+                    <div className="rekvezit-btn"><button  onClick={()=>setPage(12)}>Далее</button></div>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+      </div>
+      </div> ):(<>{page2==7?("7"):(
       <>
                 {page===1?(         <div className="login-kotta">
             <div className="teper-login">
@@ -139,7 +179,22 @@ export default function Login() {
             </div>
          </div>
          </div>):("")))}
-      </>)}</>)}</>)}
+      </>)}</>)}</>)}{page2===10?(<div>
+        <div className="login-kotta">
+            
+            <div className="teper-login10">
+            <div className="nazat" >
+              <box-icon name='x'  color="#ACACAC" onClick={()=>setPage2(5)}  size="35px"></box-icon>
+              </div>
+                  <div className="login-10-sozla">
+                    <h1>Вы успешно  <br />
+зарегистрировались</h1>
+<p>Зайдите в сервис используя свой логин и пароль.</p>
+<button>Войти в личный кабинет</button>
+                  </div>
+            </div>
+         </div>
+      </div>):(page===12?(<div>sasASAsAs</div>):(""))}
     </div>
   )
 }

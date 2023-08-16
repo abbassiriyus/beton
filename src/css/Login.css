@@ -731,3 +731,335 @@ transition: 0.4s;
     transition: 0.4s;
     }
 }
+
+.teper-login10{
+    width: 627px;
+height: 347px;
+border-radius: 35px;
+background-color: #ffffff;
+text-align: center;
+
+}
+.login-10-sozla{
+margin: auto;
+width: 370px;
+height: auto;
+}
+
+.login-10-sozla h1{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+font-size: 35px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 15px;
+}
+.login-10-sozla p{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 30px;
+}
+.login-10-sozla button{
+    width: 100%;
+height: 60px;
+padding: 20px 71px 20px 69px;
+border-radius: 12px;
+gap: 10px;
+
+border: none;
+outline: none;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+cursor: pointer;
+transition: 0.5s all;
+}
+.login-10-sozla button:hover{
+    background: #FFCB13;
+}
+ @media (max-width:680px) {
+    .teper-login10{
+        width: 80%;
+    height: 347px;
+    border-radius: 35px;
+    background-color: #ffffff;
+    text-align: center;
+    }
+}
+@media (max-width:581px) {
+    .login-10-sozla h1 {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 6.5vw;
+        font-weight: 600;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .login-10-sozla p{
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Rubik', sans-serif;
+    font-size: 2.6vw;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    .login-10-sozla button{
+        width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    gap: 10px;
+    
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s all;
+    }
+    .login-10-sozla{
+        margin: auto;
+        width: 90%;
+        height: auto;
+        }
+} 
+.login-img1{
+    position: relative;
+    top: -65px;
+    right: 10px;
+}
+.page-6{
+    width: 370px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.page-6 input{
+    width: 100%;
+}
+.fizika-litso1{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -230px;
+}
+.fizika-litso1 h1{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.fizika-litso1 p{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.page-6 input{
+    width: 100%;
+    margin-top: 10px;
+height: 60px;
+border-radius: 12px;
+border: 1px;
+border: 1px solid #E7E7E7;
+outline: none;
+margin-bottom: 0px;
+}
+.page-6 input[placeholder]{
+    padding-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-size: 17px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #979797;
+}
+
+.teper-login6{
+    width: 627px;
+    height: 831px;
+    border-radius: 35px;
+    background-color: #ffffff;
+    
+    }
+    .rekvezit{
+        margin-top: 20px;
+        display: flex;
+        align-items: start;
+        align-items: center;
+        gap: 20px;
+    }
+    .rekvezit-text p{
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Rubik', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+cursor: pointer;
+    }
+    .rekvezit-img img{
+        cursor: pointer;
+    }
+    .rekvezit-btn button{
+        width: 100%;
+    height: 60px;
+    padding: 20px 71px 20px 69px;
+    border-radius: 12px;
+    gap: 10px;
+    
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s all;
+    }
+    .rekvezit-btn button:hover{
+        background: #FFCB13;
+    }
+    .rekvezit-btn{
+        width: 390px;
+    }
+    .rekvezit {
+        margin-bottom: 20px;
+    }
+#juda-kotta{
+    width: 100%;
+min-height: 110vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+@media (max-width:690px) {
+    .teper-login6 {
+        width: 550px;
+        height: 831px;
+        border-radius: 35px;
+        background-color: #ffffff;
+    }
+    .page-6 {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        position: relative;
+    }
+    .rekvezit-btn {
+        width: 325px;
+    }
+}
+@media (max-width:585px) {
+    .teper-login6 {
+        width: 480px;
+        height: 831px;
+        border-radius: 35px;
+        background-color: #ffffff;
+    }
+    .page-6 {
+        width: 270px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        position: relative;
+    }
+    .rekvezit-btn {
+        width: 290px;
+    }
+}
+.img-x1{
+    display: flex;
+    justify-content: space-between
+}
+@media (max-width:498px) {
+    .login-img1 img{
+        display: none;
+    }
+    .img-x1{
+        display: flex;
+        justify-content: end
+    }
+    .fizika-litso1 {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: -0px;
+    }
+    .teper-login6 {
+        width: 85%;
+        height: 831px;
+        border-radius: 35px;
+        background-color: #ffffff;
+    }
+    .page-6 {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        right: 10px !important;
+    }
+    .rekvezit-btn {
+        width: 107%;
+    }
+}
