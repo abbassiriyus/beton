@@ -40,6 +40,7 @@ render() {
 	// 	</div>
 	// </Router>
 	<Home/>
+	
 );
 }
 }

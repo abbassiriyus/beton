@@ -216,7 +216,6 @@ color: black;
 
 }
   .range-field{
-    -webkit-appearance: none;
     outline: none;
     width: 62%;
     height: 6px; 
@@ -305,8 +304,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-<<<<<<< HEAD
 margin-left: 10px;
+
 }
 .beton_pagm{
     display: flex;
@@ -321,10 +320,6 @@ align-items: center;
 height: 24px; 
 margin-left: 20px
 }
-=======
-font-family: Montserrat Alternates;
-
-  }
   .beton2_da{
     display: flex;
   }
@@ -332,4 +327,3 @@ font-family: Montserrat Alternates;
     display: flex;
     align-items: center;
   }
->>>>>>> 0557116a20f7167f40ba948cb8936443940d5cf7

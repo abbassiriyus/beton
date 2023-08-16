@@ -3,6 +3,22 @@ import React, { Component } from 'react'
 import { BsArrowLeft } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
 import '../css/Zakazbeton.css';
+import beton from "../img/m350 1.png";
+import cement from "../img/cement 1(1).png";
+import tosh from "../img/183973062b952e05464d21c9f08676f9 1.png"
+// import { BsArrowLeft } from 'react-icons/bs';
+// import {BsArrowRight} from 'react-icons/bs';
+import kich  from "../img/1548993561_log 1.png";
+import logo from "../img/logo.png";
+import kema from "../img/logop(1).png";
+import yengi from "../img/Screenshot_7_lmp3jpq1 1.png"
+import '../css/Zakazbeton.css';
+import Accordion from 'react-bootstrap/Accordion';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import fliev from "../img/fluent_arrow-fit-16-filled.png";
+import phu from "../img/ph_drop-fill.png";
+import shield from "../img/bxs_shield.png"
+import qor from "../img/Vector.png"
 var data1=[{
   id:0,
   image:"../img/m350 1.png",
@@ -16,25 +32,8 @@ var data1=[{
   image:"../img/183973062b952e05464d21c9f08676f9 1.png",
   title:"Строительный раствор"
 }]
-
-import beton from "../img/m350 1.png";
-import React, { Component } from 'react'
-import cement from "../img/cement 1(1).png";
-import tosh from "../img/183973062b952e05464d21c9f08676f9 1.png"
-import { BsArrowLeft } from 'react-icons/bs';
-import {BsArrowRight} from 'react-icons/bs';
-import kich  from "../img/1548993561_log 1.png";
-import logo from "../img/logo.png";
-import kema from "../img/logop(1).png";
-import yengi from "../img/Screenshot_7_lmp3jpq1 1.png"
-import '../css/Zakazbeton.css';
-import Accordion from 'react-bootstrap/Accordion';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import fliev from "../img/fluent_arrow-fit-16-filled.png";
-import phu from "../img/ph_drop-fill.png";
-import shield from "../img/bxs_shield.png"
-import qor from "../img/Vector.png"
 export default class Zakazbeton extends Component {
+  
   state={
     page:0,
     first_select:{},
